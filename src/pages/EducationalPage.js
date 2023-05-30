@@ -10,23 +10,27 @@ export default function HobbyPage() {
             <li><Link to='/hobby'>趣味</Link></li>
             <li><Link to='/family'>家族</Link></li>
           </ul>
-          <div className="center-align container-quot">
+          <div className="center-align container-third">
             <h1>学歴</h1>
             <div className="flex-container">
-              <ul className="no-dot left-align container-third">
-              <li className="list-item-text">
-                1998年〜2004年<br />
-                2004年〜2007年<br />
-                2007年〜2010年<br />
-                2010年〜2014年
-              </li>
-              </ul>
-              <ul className="no-dot left-align">
-                <li>桐朋学園小学校</li>
-                <li>桐朋中学校</li>
-                <li>桐朋高等学校</li>
-                <li>中央大学経済学部</li>
-              </ul>
+                <ul className="no-dot left-align">
+                    <li>
+                        <div className="list-item-text">1998年〜2004年</div>
+                        <div>桐朋学園小学校</div>
+                    </li>
+                    <li>
+                        <div className="list-item-text">2004年〜2007年</div>
+                        <div>桐朋中学校</div>
+                    </li>
+                    <li>
+                        <div className="list-item-text">2007年〜2010年</div>
+                        <div>桐朋高等学校</div>
+                    </li>
+                    <li>
+                        <div className="list-item-text"> 2010年〜2014年</div>
+                        <div>中央大学経済学部</div>
+                    </li>
+                </ul>
             </div>
           </div>
         </div>

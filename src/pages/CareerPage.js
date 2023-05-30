@@ -13,19 +13,22 @@ export default function CareerPage() {
           <div className="center-align container-third">
             <h1>職歴</h1>
             <div className="flex-container">
-              <ul className="no-dot left-align container-third">
-                <li className="list-item-text">2012年〜2023年</li>
-                <li className="list-item-text"></li>
-                <li className="list-item-text">2014年〜2019年</li>
-                <li className="list-item-text"></li>
-                <li className="list-item-text">2018年〜2023年</li>
-              </ul>
-              <ul className="no-dot left-align">
-                <li>ギタリスト・・・ギターレコーディング業務やライブ出演等。カラオケDAMの生音演奏のギター録音もやっていました。</li>
-                <li>損保ジャパン日本興亜コールセンター・・・自動車保険等の保険金請求受付業務等</li>
-                <li>音楽エンジニア・・・音楽の編集作業等</li>
-              </ul>
+                <ul className="no-dot left-align">
+                    <li>
+                        <div className="list-item-text">2012年〜2023年</div>
+                        <div>ギタリスト・・・ギターレコーディング業務やライブ出演等。カラオケDAMの生音演奏のギター録音もやっていました。</div>
+                    </li>
+                    <li>
+                        <div className="list-item-text">2014年〜2019年</div>
+                        <div>損保ジャパン日本興亜コールセンター・・・自動車保険等の保険金請求受付業務等</div>
+                    </li>
+                    <li>
+                        <div className="list-item-text">2018年〜2023年</div>
+                        <div>音楽エンジニア・・・音楽の編集作業等</div>
+                    </li>
+                </ul>
             </div>
+
           </div>
         </div>
       </div>
