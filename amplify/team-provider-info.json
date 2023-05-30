@@ -10,6 +10,11 @@
       "StackName": "amplify-reactamplified-dev-83500",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:670002860705:stack/amplify-reactamplified-dev-83500/6e95ea90-fe79-11ed-9881-0e6196475bf7",
       "AmplifyAppId": "dfyuvm7oje1a4"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
     }
   }
 }
