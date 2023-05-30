@@ -5,6 +5,7 @@ export default function HomePage() {
       <div className='container' style={{ backgroundImage: `url(/img/海背景.jpeg)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', height: '100vh' }}>
         <div className='container'>
           <ul className='horizontal-list center-align'>
+            <li className="currentpage">トップページ</li>
             <li><Link to='/educational'>学歴</Link></li>
             <li><Link to='/career'>職歴</Link></li>
             <li><Link to='/hobby'>趣味</Link></li>

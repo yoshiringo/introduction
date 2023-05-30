@@ -9,6 +9,7 @@ export default function FamilyPage() {
                     <li><Link to='/educational'>学歴</Link></li>
                     <li><Link to='/career'>職歴</Link></li>
                     <li><Link to='/hobby'>趣味</Link></li>
+                    <li className="currentpage">家族</li>
                 </ul>
                 <div className="center-align container-third">
                     <h1>家族</h1>

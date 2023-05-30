@@ -7,6 +7,7 @@ export default function CareerPage() {
           <ul className='horizontal-list center-align'>
             <li><Link to='/'>トップページ</Link></li>
             <li><Link to='/educational'>学歴</Link></li>
+            <li className="currentpage">職歴</li>
             <li><Link to='/hobby'>趣味</Link></li>
             <li><Link to='/family'>家族</Link></li>
           </ul>
@@ -28,7 +29,6 @@ export default function CareerPage() {
                     </li>
                 </ul>
             </div>
-
           </div>
         </div>
       </div>

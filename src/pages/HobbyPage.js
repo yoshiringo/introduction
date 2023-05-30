@@ -6,8 +6,9 @@ import React from "react";
           <div className='container'>
             <ul className='horizontal-list center-align'>
               <li><Link to='/'>トップページ</Link></li>
-              <li><Link to='/career'>職歴</Link></li>
               <li><Link to='/educational'>学歴</Link></li>
+              <li><Link to='/career'>職歴</Link></li>
+              <li className="currentpage">趣味</li>
               <li><Link to='/family'>家族</Link></li>
             </ul>
             <div className="center-align container-third">

@@ -6,6 +6,7 @@ export default function HobbyPage() {
         <div className='container'>
           <ul className='horizontal-list center-align'>
             <li><Link to='/'>トップページ</Link></li>
+            <li className="currentpage">学歴</li>
             <li><Link to='/career'>職歴</Link></li>
             <li><Link to='/hobby'>趣味</Link></li>
             <li><Link to='/family'>家族</Link></li>
